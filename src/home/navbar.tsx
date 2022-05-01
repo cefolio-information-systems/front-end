@@ -41,7 +41,7 @@ const NavBar: NextPage = () => {
           <Image src="/logo.png" alt="logo" height="50px" width="50px" />
         </a>
       </Link>
-      <RightItemsContainer>
+      {/* <RightItemsContainer>
         <a className="nav-item show-web">Templates</a>
         <a className="nav-item show-web">Recommendations</a>
         <a className="nav-item show-web">About</a>
@@ -53,7 +53,7 @@ const NavBar: NextPage = () => {
         >
           {getIcon('github')}
         </a>
-      </RightItemsContainer>
+      </RightItemsContainer> */}
     </Nav>
   );
 };

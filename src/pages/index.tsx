@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Hero from 'src/home/hero';
 import Features from 'src/home/features';
 import NavBar from 'src/home/navbar';
+import Link from 'next/link';
 
 const Main = styled.main`
   padding: 10px 5% 0;
@@ -25,6 +26,9 @@ const Home: NextPage = () => {
       </Head>
 
       <Main>
+        <Link href="/a">
+          <a>Home</a>
+        </Link>
         <NavBar />
         <Hero />
         <Features />

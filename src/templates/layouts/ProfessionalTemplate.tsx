@@ -30,7 +30,6 @@ const ResumeContainer = styled(Flex)`
   background-color: ${(props) => props.theme.backgroundColor};
 
   @media print {
-    border: none;
   }
 `;
 

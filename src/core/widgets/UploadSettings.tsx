@@ -54,6 +54,7 @@ export function UploadSettings() {
       resetEducation(userJSoN.education);
       resetActivities(userJSoN.activities);
     };
+
     reader.readAsText(file);
   }
 
