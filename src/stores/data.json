@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "First Name",
-    "label": "Developer",
+    "label": "Frontend Developer",
     "image": "https://www.linkpicture.com/q/generated_photos_5e68893b6d3b380006f22f8b.jpg",
-    "email": "janedoe@email.com",
-    "phone": "+91 9876543210",
-    "url": "www.github.com/sadanandpai/",
+    "email": "Name@email.com",
+    "phone": "+91 9738890291",
+    "url": "www.github.com/cefolio-information-systems/",
     "summary": "I am a web developer having expertise in frontend development and exposure to back- end development. I design and develop web applications using the latest technologies to deliver the product with quality code.",
     "location": {
       "address": "",
@@ -124,8 +124,8 @@
       "courses": []
     },
     {
-      "institution": "NMAMIT, Nitte",
-      "url": "https://www.mit.edu/",
+      "institution": "East Point College of Engineering and Technology",
+      "url": "https://EPCET.com/",
       "studyType": "B.Tech (VTU)",
       "area": "Computer Science",
       "startDate": "2010",
