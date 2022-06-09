@@ -2,7 +2,7 @@
   "basics": {
     "name": "First Name",
     "label": "Developer",
-    "image": "https://www.linkpicture.com/q/generated_photos_5e68893b6d3b380006f22f8b.jpg",
+    "image": "https://img.freepik.com/free-vector/businessman-profile-cartoon_18591-58479.jpg",
     "email": "Name@email.com",
     "phone": "+91 9738890291",
     "url": "www.github.com/cefolio-information-systems/",
@@ -20,7 +20,7 @@
     "profiles": [
       {
         "network": "linkedin",
-        "username": "sadanandpai",
+        "username": "Developer1",
         "url": "https://www.linkedin.com/in/sadanandpai/"
       },
       {

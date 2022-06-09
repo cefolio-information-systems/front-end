@@ -36,11 +36,6 @@ const RightItemsContainer = styled.div`
 const NavBar: NextPage = () => {
   return (
     <Nav>
-      <Link href="/">
-        <a>
-          <Image src="/logo.png" alt="logo" height="50px" width="50px" />
-        </a>
-      </Link>
       {/* <RightItemsContainer>
         <a className="nav-item show-web">Templates</a>
         <a className="nav-item show-web">Recommendations</a>

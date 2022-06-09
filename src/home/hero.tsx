@@ -45,6 +45,7 @@ const CTA = styled.span`
   border-radius: 4px;
   text-align: center;
   font-size: 1rem;
+  margin-right: 5px;
 `;
 
 const Hero: NextPage = () => {
@@ -55,6 +56,10 @@ const Hero: NextPage = () => {
       localStorage.setItem('user', result.user.uid);
       router.push('/editor');
     }
+  };
+  let anonymous = () => {
+    localStorage.setItem('user', 'anonymous');
+    router.push('/editor');
   };
 
   return (
@@ -71,7 +76,12 @@ const Hero: NextPage = () => {
               <CTA>Get Started</CTA>
             </a>
           </Link> */}
-          <CTA onClick={auth}>Get Started</CTA>
+          <CTA onClick={auth}>
+            Continue with <b>Google</b>
+          </CTA>
+          <CTA onClick={anonymous}>
+            Continue as <b>Anonymous user</b>{' '}
+          </CTA>
         </div>
       </div>
       <Image src="/hiring.svg" alt="hiring" width="300px" height="300px" priority />
