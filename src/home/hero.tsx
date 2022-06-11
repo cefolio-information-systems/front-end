@@ -63,9 +63,14 @@ const Hero: NextPage = () => {
   };
 
   return (
-    <HeroHolder>
+    <>
+    <div style={{display:"flex",justifyContent:"center"}}>
+     <img height="100px" src="https://raw.githubusercontent.com/manoj0806/Cefolio-frontend/master/images/Cefolio.png"/>
+     </div>
+     <HeroHolder>
+      <div style={{display:"flex",justifyContent:"center"}}>
       <div>
-        <p style={{ color: '#6C63FF', fontSize: '5rem', fontWeight: 'bold' }}>CeFolio</p>
+        <p style={{ color: '#6C63FF', fontSize: '5rem', fontFamily: 'monument' }}>CeFolio</p>
         <p style={{ fontSize: '1.5rem' }}>
           A <span style={{ color: '#6C63FF', fontSize: '1.5rem' }}>Link</span> is all you need
         </p>
@@ -84,8 +89,10 @@ const Hero: NextPage = () => {
           </CTA>
         </div>
       </div>
-      <Image src="/hiring.svg" alt="hiring" width="300px" height="300px" priority />
+      </div>
+  
     </HeroHolder>
+    </>
   );
 };
 
