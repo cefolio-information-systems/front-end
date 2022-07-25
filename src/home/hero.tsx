@@ -65,7 +65,7 @@ const Hero: NextPage = () => {
   return (
     <>
     <div style={{display:"flex",justifyContent:"center"}}>
-     <img height="100px" src="https://raw.githubusercontent.com/manoj0806/Cefolio-frontend/master/images/Cefolio.png"/>
+     <img height="100px" src="https://raw.githubusercontent.com/cefolio-information-systems/front-end/master/cefolio.jpg"/>
      </div>
      <HeroHolder>
       <div style={{display:"flex",justifyContent:"center"}}>
